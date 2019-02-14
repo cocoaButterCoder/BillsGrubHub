@@ -10,59 +10,66 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="0dp"
+        android:layout_weight="1"
         android:scaleType="centerCrop"
         android:src="@drawable/front_reduced_75percent" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Bill's Grub Hub"
-        android:textSize="48sp"
-        android:textColor="#992B1C"
-        android:layout_marginLeft="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="4dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="2">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hours of Operation"
-        android:textSize="34sp"
-        android:textColor="#992B1C"
-        android:layout_marginLeft="16dp"
-        android:layout_marginBottom="4dp"
-        android:layout_marginTop="4dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bill's Grub Hub"
+            android:textSize="48sp"
+            android:textColor="#992B1C"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="4dp"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="24dp"
-        android:text="Monday through Friday"
-        android:textSize="24sp"
-        android:textColor="#992B1C"
-        android:layout_marginBottom="4dp"
-        android:layout_marginTop="4dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hours of Operation"
+            android:textSize="34sp"
+            android:textColor="#992B1C"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="To Contact or Order:"
-        android:textSize="34sp"
-        android:textColor="#992B1C"
-        android:layout_marginLeft="16dp"
-        android:layout_marginBottom="4dp"
-        android:layout_marginTop="4dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:text="Monday through Friday"
+            android:textSize="24sp"
+            android:textColor="#992B1C"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"/>
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="24dp"
-        android:text="301.788.7471"
-        android:textSize="24sp"
-        android:textColor="#992B1C"
-        android:layout_marginBottom="4dp"
-        android:layout_marginTop="4dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="To Contact or Order:"
+            android:textSize="34sp"
+            android:textColor="#992B1C"
+            android:layout_marginLeft="16dp"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"/>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:text="301.788.7471"
+            android:textSize="24sp"
+            android:textColor="#992B1C"
+            android:layout_marginBottom="4dp"
+            android:layout_marginTop="4dp"/>
 
+    </LinearLayout>
 </LinearLayout>
